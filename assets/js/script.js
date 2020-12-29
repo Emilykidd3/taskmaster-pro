@@ -1,5 +1,10 @@
 var tasks = {};
 
+// add date picker
+$("#modalDueDate").datepicker({
+  minDate: 1
+});
+
 // make li's sortable
 $(".card .list-group").sortable({
   connectWith: $(".card .list-group"),
